@@ -1,11 +1,8 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {GitlabSrvService} from "../services/gitlab-service/gitlab-srv.service";
-import {Observable} from "rxjs/internal/Observable";
-import {HttpResponse} from "@angular/common/http";
-
-export interface Observer {
-  notify();
-}
+import {GitlabSrvService} from '../services/gitlab-service/gitlab-srv.service';
+import {Observable} from 'rxjs/internal/Observable';
+import {HttpResponse} from '@angular/common/http';
+import {AppConstants} from '../constants/app.constants';
 
 @Component({
   selector: 'app-dashboard',
@@ -14,21 +11,18 @@ export interface Observer {
 })
 
 export class DashboardComponent implements OnInit {
-
+  _baseGitLab: string;
+  _gitLabProjects: string;
   public results: any;
   protected repositories$: HttpResponse<Object>;
-  headers;
-  config;
+
   constructor(private GitLabSrv: GitlabSrvService) {
+    this._baseGitLab = AppConstants.baseGitLab;
+    this._gitLabProjects = AppConstants.gitLabProjects;
   }
 
   ngOnInit() {
-    this.GitLabSrv.callGitLab()
-      .subscribe(res => {
-        const keys = res.headers.keys();
-        this.headers = keys.map(
-          key => `${key}: ${res.headers.get('link')}`);
-      })
+    this.GitLabSrv.getRepositoryList(this._baseGitLab + this._gitLabProjects);
   }
-}
 
+}
