@@ -11,6 +11,7 @@ import {AppConstants} from '../constants/app.constants';
 })
 
 export class DashboardComponent implements OnInit {
+
   _baseGitLab: string;
   _gitLabProjects: string;
   public results: any;
@@ -22,7 +23,10 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.GitLabSrv.getRepositoryList(this._baseGitLab + this._gitLabProjects);
+    this.GitLabSrv.callGitLab(this._baseGitLab + this._gitLabProjects)
+      .subscribe(
+        repositories => this.results = repositories
+      );
   }
 
 }

@@ -13,29 +13,33 @@ export class GitlabSrvService {
   headers: HttpHeaders = new HttpHeaders();
   _next;
   _keys;
+  _array;
 
   constructor(protected http: HttpClient) {
     this.headers = new HttpHeaders({'Private-Token': 'Jr1bgb7iA46sbYqzxjRe'});
   }
 
-  callGitLab(url: string, headers: HttpHeaders): Observable<any> {
-    return this.http.get(url, {observe: 'response', headers: headers})
-      .pipe(
-        map((res: any) => {
-            // Aquí se gestiona tener la siguiente URL
-            this._next = +res.headers.get('X-Next-Page');
-            this._keys = res.headers.get('link');
-            res.json();
-          },
-          flatMap((second: any) => {
-            if (this._next > 0) {
-              return this.http.get(this.cutUpURL(this._keys))
-                .pipe(
-                  map((res: any) => res.json())
-                );
-            }
-          }))
-      );
+  callGitLab(url: string): Observable<any> {
+    return this.http.get(url, {observe: 'response', headers: this.headers})
+      // .pipe(
+      //   map((res: any) => {
+      //       // Aquí se gestiona tener la siguiente URL
+      //       this._next = +res.headers.get('X-Next-Page');
+      //       this._keys = res.headers.get('link');
+      //       // this._array = res.body;
+      //     }//,
+      //     // flatMap((second: any) => {
+      //     //   if (this._next > 0) {
+      //     //     return this.http.get(this.cutUpURL(second.headers.get('link')))
+      //     //       .pipe(
+      //     //         map((res: any) => {
+      //     //          return this._array.push(res.body)
+      //     //
+      //     //         })
+      //     //       );
+      //     //   }
+      //     // }))
+      //   ));
   }
 
   // Ejemplo Angular 6 con el flatMap
@@ -52,10 +56,10 @@ export class GitlabSrvService {
         )
       );
   }
-
-  getRepositoryList(url: string): Observable<any> {
-    return this.callGitLab(url, this.headers);
-  }
+  //
+  // getRepositoryList(url: string): Observable<any> {
+  //   return this.callGitLab(url, this.headers)
+  // }
 
   cutUpURL(linkHeader) {
     let choppedLink = linkHeader.split(/", </g); // Creo un objeto con las URLs separadas facilitadas por la cabecera "Link" de la respuesta
