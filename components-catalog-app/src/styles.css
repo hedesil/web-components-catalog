@@ -4,3 +4,6 @@ h1 {
   font-family: "Arial Unicode MS";
   font-size: 250%;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }

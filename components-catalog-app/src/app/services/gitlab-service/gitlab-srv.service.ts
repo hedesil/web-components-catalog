@@ -18,7 +18,8 @@ export class GitlabSrvService {
   constructor(protected http: HttpClient) {
     this.headers = new HttpHeaders({'Private-Token': 'Jr1bgb7iA46sbYqzxjRe'});
   }
-
+  //El grupo FRONTAL_UNIFICADO tiene el ID 824
+  //El grupo COMPONENTES tiene el ID 399
   callGitLab(url: string): Observable<any> {
     return this.http.get(url, {observe: 'response', headers: this.headers})
       // .pipe(
@@ -42,20 +43,6 @@ export class GitlabSrvService {
       //   ));
   }
 
-  // Ejemplo Angular 6 con el flatMap
-  getBookAuthor(id: number): Observable<any> {
-    return this.http.get('/api/books/' + id)
-      .pipe(
-        map((res: any) => res.json(),
-          flatMap((book: any) => {
-            return this.http.get('/api/authors/' + book.author_id)
-              .pipe(
-                map((res: any) => res.json())
-              );
-          })
-        )
-      );
-  }
   //
   // getRepositoryList(url: string): Observable<any> {
   //   return this.callGitLab(url, this.headers)
