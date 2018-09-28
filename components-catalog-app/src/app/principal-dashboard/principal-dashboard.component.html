@@ -1,5 +1,5 @@
 <div class="grid-container">
-  <h1 class="mat-h1">Listado de componentes AngularJS</h1>
+  <h1 class="mat-h1">Listado de componentes Angular</h1>
   <!--Main grid container-->
   <mat-grid-list cols="4" rowHeight="150px">
     <!--Divides structure in small chunks-->
@@ -10,19 +10,15 @@
         <mat-card-header>
           <mat-card-title>
             {{card.name}}
-            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
-              <mat-icon>more_vert</mat-icon>
-            </button>
-            <mat-menu #menu="matMenu" xPosition="before">
-              <button mat-menu-item>Expand</button>
-              <button mat-menu-item>Remove</button>
-            </mat-menu>
           </mat-card-title>
         </mat-card-header>
         <!--Content of card -->
         <mat-card-content class="dashboard-card-content">
           <div>Card Content Here</div>
         </mat-card-content>
+        <mat-card-footer>
+          <a href="{{card.web_url}}"></a>
+        </mat-card-footer>
       </mat-card>
     </mat-grid-tile>
   </mat-grid-list>
