@@ -1,9 +1,0 @@
-/* You can add global styles to this file, and also import other style files */
-h1 {
-  color: orange;
-  font-family: "Arial Unicode MS";
-  font-size: 250%;
-}
-
-html, body { height: 100%; }
-body { margin: 0; font-family: 'Roboto', sans-serif; }
