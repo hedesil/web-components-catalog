@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-component-sidenav',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./component-sidenav.component.css']
 })
 export class ComponentSidenavComponent implements OnInit {
+  opened: boolean;
+  shouldRun;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
+    this.shouldRun = [/(^|\.)plnkr\.co$/, /(^|\.)stackblitz\.io$/].some(h => h.test(window.location.host));
   }
 
 }
