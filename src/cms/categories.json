@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Acceso a APIs",
+      "description": "Componentes orientados al acceso de datos Orange."
+    },
+    {
+      "id": 2,
+      "name": "Presentacionales",
+      "description": "Componentes básicos para construir otros componentes más grandes (botones, inputs, etc)."
+    },
+    {
+      "id": 3,
+      "name": "Formularios",
+      "description": "Componentes desarrollados para realizar formularios al estilo Orange."
+    }
+  ]
+}
