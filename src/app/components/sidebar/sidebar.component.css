@@ -1,0 +1,21 @@
+.sidebar-container {
+  position: absolute;
+  top: 64px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+}
+
+.mat-sidenav {
+  border-top: 1px #ffffff solid;
+  border-right: 1px #ffffff solid;
+  width:260px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.mat-sidenav-content {
+  background-color: #ffffff;
+  color: #ff6f00;
+}

@@ -1,8 +1,56 @@
-<div class="main-dashboard">
-  <h1>Dashboard principal con unas carticas</h1><br>
+<!--<app-header></app-header>-->
+<!--<app-sidebar></app-sidebar>-->
+<div class="wrapper">
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <img src="../../../assets/images/logo-orange.png" height="65px" width="65px"/>
+      <h6>Cat&aacute;logo de componentes</h6>
+    </div>
+    <ul class="list-unstyled components">
+      <p>Categor&iacute;as</p>
+      <li class="active">
+        <a href="" class="dropdown-toggle" data-toggle="collapse" (click)="isCollapsed = !isCollapsed"
+           [attr.aria-expanded]="!isCollapsed" aria-controls="homeSubmenu">
+          Acceso a APIs</a>
+        <ul class="collapse list-unstyled" id="homeSubmenu" [ngbCollapse]="isCollapsed">
+          <li>
+            <a href="#">Ejemplo</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Formularios</a>
+      </li>
+      <li>
+        <a href="#">Gr&aacute;ficas</a>
+      </li>
+      <li>
+        <a href="#">Anal&iacute;ticos</a>
+      </li>
 
-  <mat-card>
-
-  </mat-card>
+    </ul>
+  </nav>
+  <div id="content">
+      <div class="container-fluid">
+        <h3>Acesso a APIs</h3>
+        <mat-card class="example-card">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>Customer View</mat-card-title>
+            <mat-card-subtitle>Web Component de acceso a datos</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+          <mat-card-content>
+            <p>
+              El API Customer View es la encargada de construir la vista 360º de un cliente.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+  </div>
 </div>
 

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-dashboard.component.css']
 })
 export class MainDashboardComponent implements OnInit {
-
+  public isCollapsed = true;
   constructor() { }
 
   ngOnInit() {

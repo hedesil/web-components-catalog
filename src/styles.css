@@ -3,7 +3,7 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 @import '~@angular/material/prebuilt-themes/purple-green.css';
-
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
 .main-dashboard {
   margin-top: 5%;
 }

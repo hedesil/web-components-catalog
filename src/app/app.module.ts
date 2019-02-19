@@ -9,8 +9,8 @@ import {HeaderComponent} from './components/header/header.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MainDashboardComponent} from './components/main-dashboard/main-dashboard.component';
 import {AppRoutingModule} from './app-routing.module';
-import {MainLayoutComponent} from './layouts/main-layout/main-layout.component';
-import {ComponentsModule} from './components/components.module';
+import {SidebarComponent} from './components/sidebar/sidebar.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   imports: [
@@ -18,16 +18,16 @@ import {ComponentsModule} from './components/components.module';
     BrowserAnimationsModule,
     FlexLayoutModule,
     MaterialModule,
+    NgbModule,
     FormsModule,
     AppRoutingModule,
-    ComponentsModule
   ],
   declarations: [
     AppComponent,
     HeaderComponent,
     MainDashboardComponent,
     ComponentSidenavComponent,
-    MainLayoutComponent
+    SidebarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

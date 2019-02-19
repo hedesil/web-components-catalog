@@ -1,17 +1,11 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {MainLayoutComponent} from './layouts/main-layout/main-layout.component';
+import {MainDashboardComponent} from './components/main-dashboard/main-dashboard.component';
 
 const principalRoutes: Routes = [
   {path: '', redirectTo: 'dashboard', pathMatch: 'full'},
   {
-    path: 'dashboard', component: MainLayoutComponent, children: [
-      {
-        path: '',
-        loadChildren: './layouts/main-layout/main-layout.module#MainLayoutModule'
-      }
-    ]
-  },
+    path: 'dashboard', component: MainDashboardComponent},
 ];
 
 @NgModule({
