@@ -8,6 +8,9 @@ import {ComponentSidenavComponent} from './components/component-sidenav/componen
 import {HeaderComponent} from './components/header/header.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MainDashboardComponent} from './components/main-dashboard/main-dashboard.component';
+import {AppRoutingModule} from './app-routing.module';
+import {MainLayoutComponent} from './layouts/main-layout/main-layout.component';
+import {ComponentsModule} from './components/components.module';
 
 @NgModule({
   imports: [
@@ -15,16 +18,20 @@ import {MainDashboardComponent} from './components/main-dashboard/main-dashboard
     BrowserAnimationsModule,
     FlexLayoutModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule,
+    ComponentsModule
   ],
   declarations: [
     AppComponent,
     HeaderComponent,
     MainDashboardComponent,
-    ComponentSidenavComponent
+    ComponentSidenavComponent,
+    MainLayoutComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule {
 }

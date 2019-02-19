@@ -4,18 +4,6 @@
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
 @import '~@angular/material/prebuilt-themes/purple-green.css';
 
-.header-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #000000;
+.main-dashboard {
+  margin-top: 5%;
 }
-
-.mat-search {
-  font-size: smaller;
-  font-weight: 500;
-  width: 50%
-}
-
