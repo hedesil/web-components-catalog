@@ -113,3 +113,7 @@ a[data-toggle="collapse"] {
   background-size: cover;
 }
 
+/*Estilos del input*/
+.mat-input-underline{
+  background-color: #ffffff;
+}
