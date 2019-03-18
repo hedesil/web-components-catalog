@@ -8,7 +8,7 @@ export class MessageService {
   sendMessage(message: string, messageContent: string, component: string) {
     this.subject.next({
       text: message,
-      content: messageContent,
+      contents: messageContent,
       component: component
     });
   }

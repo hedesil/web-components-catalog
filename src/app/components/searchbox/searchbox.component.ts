@@ -3,6 +3,7 @@ import {debounceTime, distinctUntilChanged, switchMap} from 'rxjs/operators';
 import {SearchService} from '../../services/search.service';
 import {MessageService} from '../../services/message.service';
 import {FormControl} from '@angular/forms';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-searchbox',
@@ -14,7 +15,9 @@ export class SearchboxComponent implements OnInit {
   public results: any;
   public queryField: FormControl = new FormControl();
 
-  constructor(private _searchService: SearchService, private messageService: MessageService) { }
+  constructor(private _searchService: SearchService,
+              private messageService: MessageService,
+              private router: Router) { }
 
   ngOnInit() {
     this.queryField.valueChanges
@@ -27,6 +30,7 @@ export class SearchboxComponent implements OnInit {
       )
       .subscribe(response => {
         this.sendMessage('repositories', response.body, 'app-searchbox');
+        this.router.navigateByUrl('(sidebar:summaryCard)');
       });
   }
 

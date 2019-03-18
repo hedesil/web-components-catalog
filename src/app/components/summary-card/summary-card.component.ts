@@ -10,13 +10,13 @@ import {MessageService} from '../../services/message.service';
 export class SummaryCardComponent implements OnInit, OnDestroy {
   messages: any[] = [];
   subscription: Subscription;
-
+  results: any;
   constructor(private messageService: MessageService) {
     // Suscripcion al componente main-dashboard
     this.subscription = this.messageService.getMessage().subscribe(message => {
       if (message) {
+        this.results = message.contents;
         this.messages.push(message);
-        console.log('recibido mensaje')
       } else {
         // Se limpian mensajes cuando se recibe un mensaje vacio
         this.messages = [];
@@ -25,7 +25,7 @@ export class SummaryCardComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-
+    console.log('emosido instanciado')
   }
 
   ngOnDestroy(): void {
