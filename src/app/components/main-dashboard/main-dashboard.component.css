@@ -45,7 +45,8 @@ a, a:hover, a:focus {
   max-width: 250px;
   min-height: 100vh;
   background: #ff6f00;
-  color: #fff;
+  color: #000000;
+  font-weight: bold;
   transition: all 0.3s;
 }
 
@@ -60,7 +61,8 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul p {
-  color: #fff;
+  color: #000000;
+  font-weight: bold;
   padding: 10px;
 }
 
@@ -71,7 +73,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul li a:hover {
-  color: #ff6f00;
+  color: #ffffff;
   background: #000000;
 }
 

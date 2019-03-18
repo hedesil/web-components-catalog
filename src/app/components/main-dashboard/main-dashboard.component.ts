@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-main-dashboard',
@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainDashboardComponent implements OnInit {
   public isCollapsed = true;
-  constructor() { }
 
-  ngOnInit() {
-
+  constructor() {
   }
 
+  ngOnInit() {
+  }
 }
