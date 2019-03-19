@@ -12,5 +12,6 @@ export class MainDashboardComponent implements OnInit {
   }
 
   ngOnInit() {
+
   }
 }

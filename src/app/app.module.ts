@@ -14,6 +14,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { ComponentCardComponent } from './components/component-card/component-card.component';
 import { SummaryCardComponent } from './components/summary-card/summary-card.component';
 import { SearchboxComponent } from './components/searchbox/searchbox.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   imports: [
@@ -34,6 +35,7 @@ import { SearchboxComponent } from './components/searchbox/searchbox.component';
     ComponentCardComponent,
     SummaryCardComponent,
     SearchboxComponent,
+    SidebarComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

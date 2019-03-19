@@ -1,0 +1,30 @@
+<div class="wrapper">
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <img src="../../../assets/images/logo-orange.png" height="65px" width="65px"/>
+      <h6>Cat&aacute;logo de componentes</h6>
+    </div>
+    <ul class="list-unstyled components">
+      <p>Categor&iacute;as</p>
+      <p>
+        <app-searchbox></app-searchbox>
+      </p>
+      <li>
+        <a href="#">Elementos gr&aacute;ficos</a>
+      </li>
+      <li>
+        <a href="#" class="dropdown-toggle" data-toggle="collapse" (click)="isCollapsed = !isCollapsed"
+           [attr.aria-expanded]="!isCollapsed" aria-controls="homeSubmenu">
+          Acceso a APIs</a>
+        <ul class="collapse list-unstyled" id="homeSubmenu" [ngbCollapse]="isCollapsed">
+          <li>
+            <a href="#">Ejemplo</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Anal&iacute;ticos</a>
+      </li>
+    </ul>
+  </nav>
+</div>

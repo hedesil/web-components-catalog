@@ -30,7 +30,7 @@ export class SearchboxComponent implements OnInit {
       )
       .subscribe(response => {
         this.sendMessage('repositories', response.body, 'app-searchbox');
-        this.router.navigateByUrl('(sidebar:summaryCard)');
+        this.router.navigateByUrl('summaryCard');
       });
   }
 

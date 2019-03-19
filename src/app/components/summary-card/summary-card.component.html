@@ -6,7 +6,7 @@
         <div class="card-body">
           <h5></h5>
           <p class="card-text">Grupo perteneciente: {{card.namespace.path}}</p>
-          <a class="btn btn-primary" [routerLink]="[{outlets: {sidebar:['singleCard']}}]">{{card.name}}</a>
+          <a class="btn btn-primary" [routerLink]="'singleCard'">{{card.name}}</a>
         </div>
       </div>
     </div>
