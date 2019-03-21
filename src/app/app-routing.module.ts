@@ -21,7 +21,9 @@ import {SidebarComponent} from './components/sidebar/sidebar.component';
 
 const routes: Routes = [
   {path: '', component: SidebarComponent, outlet: 'sidebar'},
-  {path: 'summaryCard', component: SummaryCardComponent}
+  // {path: '', component: }
+  {path: 'summaryCard', component: SummaryCardComponent},
+  {path: 'componentCard/:id', component: ComponentCardComponent}
 ];
 
 @NgModule({

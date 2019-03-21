@@ -1,5 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
+html *
+{
+  font-family: "Helvetica Neue", "Helvetica Neue", serif !important;
+}
+
 mat-grid-tile {
   background: lightblue;
 }
@@ -78,7 +83,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-  color: #ff6f00;
+  color: #ffffff;
   background: #000000;
 }
 
@@ -90,6 +95,15 @@ ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
   background: #000000;
+}
+
+.submenu li a {
+  color: #ffffff;
+}
+
+.submenu a:hover {
+  color: #ff6f00;
+  background: #ffffff;
 }
 
 /*Estilos para los botones*/

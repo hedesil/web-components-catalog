@@ -10,20 +10,29 @@
         <app-searchbox></app-searchbox>
       </p>
       <li>
-        <a href="#">Elementos gr&aacute;ficos</a>
+        <a href="#"
+           class="dropdown-toggle"
+           data-toggle="collapse"
+           (click)="isCollapsed = !isCollapsed"
+           [attr.aria-expanded]="!isCollapsed"
+           aria-controls="homeSubmenu">Web Components</a>
+          <ul class="collapse list-unstyled submenu" id="homeSubmenu" [ngbCollapse]="isCollapsed">
+            <li>
+              <a href="#">Componentes de UI</a>
+            </li>
+            <li>
+              <a href="#">Componentes de API</a>
+            </li>
+            <li>
+              <a href="#">Componentes de negocio</a>
+            </li>
+          </ul>
       </li>
       <li>
-        <a href="#" class="dropdown-toggle" data-toggle="collapse" (click)="isCollapsed = !isCollapsed"
-           [attr.aria-expanded]="!isCollapsed" aria-controls="homeSubmenu">
-          Acceso a APIs</a>
-        <ul class="collapse list-unstyled" id="homeSubmenu" [ngbCollapse]="isCollapsed">
-          <li>
-            <a href="#">Ejemplo</a>
-          </li>
-        </ul>
+        <a href="#">AngularJS</a>
       </li>
       <li>
-        <a href="#">Anal&iacute;ticos</a>
+        <a href="#">Angular 5+</a>
       </li>
     </ul>
   </nav>
