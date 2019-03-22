@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;  /*enables flex content for its children*/
+  height: 100vh;
+  overflow: hidden;  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
+  margin: 0px;  /*removes default style*/
+  box-sizing: border-box;
+}
+
+.column {
+  height: 100%;  /*allows both columns to span the full height of the browser window*/
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarOutletWrapper {
+  flex-shrink: 0;
+}
+
+.principalOutletWrapper {
+  flex: 1 1 auto;
+  overflow: auto;
+}

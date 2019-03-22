@@ -12,4 +12,7 @@ export class SidebarComponent implements OnInit {
   ngOnInit() {
   }
 
+  getWindowHeight(){
+   return window.innerHeight + 'px';
+  }
 }

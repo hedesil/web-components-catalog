@@ -1,9 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-html *
-{
-  font-family: "Helvetica Neue", "Helvetica Neue", serif !important;
-}
 
 mat-grid-tile {
   background: lightblue;
@@ -38,10 +34,12 @@ a, a:hover, a:focus {
 }
 
 /*Estilos contenedor general*/
-.wrapper {
+.sidenav {
   display: flex;
+  height: 100%;
   width: 100%;
   align-items: stretch;
+  flex-grow: 1;
 }
 
 /*Estilos sidebar*/

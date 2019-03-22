@@ -1,1 +1,13 @@
-<markdown [data]="readmeContent"></markdown>
+<div *ngIf="isLoading">
+  Loading...
+</div>
+<div *ngIf="!isLoading" class="wrapper">
+  <h1>{{packageContent.name}}</h1>
+  <p>{{packageContent.description}}</p>
+  <p>&Uacute;ltima versi&oacute;n: {{packageContent.version}}</p>
+
+  <h1 style="color: orangered">Documentaci&oacute;n t&eacute;cnica</h1>
+  <markdown [data]="readmeContent"></markdown>
+</div>
+
+

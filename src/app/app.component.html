@@ -1,9 +1,12 @@
 <!-- Esta sera la vista por defecto de la aplicacion, la cual carga unicamente el componente de router-->
-<div style="float:left">
-  <router-outlet name="sidebar"></router-outlet>
+<div class="wrapper">
+  <div class="sidebarOutletWrapper column">
+    <router-outlet name="sidebar"></router-outlet>
+  </div>
+  <div class="principalOutletWrapper column">
+    <h2>Bienvenido al cat&aacute;logo de componentes</h2>
+    <router-outlet></router-outlet>
+  </div>
 </div>
-<div>
-  <h2>Bienvenido al cat&aacute;logo de componentes</h2>
-  <router-outlet></router-outlet>
-</div>
+
 
