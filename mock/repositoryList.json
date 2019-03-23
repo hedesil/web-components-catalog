@@ -1,0 +1,1382 @@
+[
+  {
+    "id": 6797,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNFOOTERJAZZTEL",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNFOOTERJAZZTEL",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNFOOTERJAZZTEL",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNFOOTERJAZZTEL",
+    "created_at": "2019-03-22T13:01:50.691Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNFOOTERJAZZTEL.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNFOOTERJAZZTEL.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNFOOTERJAZZTEL",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-22T13:01:50.691Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6797",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6797/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6797/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6797/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6797/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6797/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6797/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6796,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNBASEHEADER",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNBASEHEADER",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNBASEHEADER",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBASEHEADER",
+    "created_at": "2019-03-22T11:47:34.096Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBASEHEADER.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBASEHEADER.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBASEHEADER",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-22T12:50:10.675Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6796",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6796/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6796/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6796/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6796/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6796/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6796/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 1196,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6795,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOXJAZZTEL",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOXJAZZTEL",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOXJAZZTEL",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOXJAZZTEL",
+    "created_at": "2019-03-22T11:28:31.753Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOXJAZZTEL.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOXJAZZTEL.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOXJAZZTEL",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-22T12:30:25.355Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6795",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6795/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6795/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6795/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6795/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6795/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6795/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6794,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOX",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOX",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOX",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOX",
+    "created_at": "2019-03-22T10:32:49.092Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOX.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOX.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBLACKLISTBOX",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-22T11:49:23.594Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6794",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6794/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6794/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6794/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6794/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6794/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6794/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6793,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNPAETABLENOTIFICATIONS",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNPAETABLENOTIFICATIONS",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNPAETABLENOTIFICATIONS",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNPAETABLENOTIFICATIONS",
+    "created_at": "2019-03-21T07:47:40.322Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNPAETABLENOTIFICATIONS.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNPAETABLENOTIFICATIONS.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNPAETABLENOTIFICATIONS",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-21T16:04:52.771Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6793",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6793/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6793/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6793/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6793/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6793/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6793/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 565,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6779,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANG_FUNPASARELAPAGOS",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANG_FUNPASARELAPAGOS",
+    "path": "FRONTALUNIFICADO_ANG_FUNPASARELAPAGOS",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNPASARELAPAGOS",
+    "created_at": "2019-03-19T12:57:38.693Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNPASARELAPAGOS.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNPASARELAPAGOS.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNPASARELAPAGOS",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-19T12:57:38.693Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6779",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6779/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6779/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6779/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6779/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6779/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6779/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 1196,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6770,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNSRVPAEDEFAULTVIEW",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNSRVPAEDEFAULTVIEW",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNSRVPAEDEFAULTVIEW",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSRVPAEDEFAULTVIEW",
+    "created_at": "2019-03-18T08:49:13.397Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSRVPAEDEFAULTVIEW.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSRVPAEDEFAULTVIEW.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSRVPAEDEFAULTVIEW",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-18T09:51:58.745Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6770",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6770/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6770/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6770/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6770/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6770/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6770/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 1196,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6761,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANG_FUNESCAPARATECOBERTURA",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANG_FUNESCAPARATECOBERTURA",
+    "path": "FRONTALUNIFICADO_ANG_FUNESCAPARATECOBERTURA",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNESCAPARATECOBERTURA",
+    "created_at": "2019-03-15T07:51:58.027Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNESCAPARATECOBERTURA.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNESCAPARATECOBERTURA.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNESCAPARATECOBERTURA",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-19T14:48:59.909Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6761",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6761/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6761/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6761/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6761/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6761/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6761/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 1196,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6743,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNSRVPAESHAREDBONUS",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNSRVPAESHAREDBONUS",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNSRVPAESHAREDBONUS",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSRVPAESHAREDBONUS",
+    "created_at": "2019-03-12T15:39:52.181Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSRVPAESHAREDBONUS.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSRVPAESHAREDBONUS.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSRVPAESHAREDBONUS",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-13T08:42:06.664Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6743",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6743/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6743/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6743/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6743/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6743/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6743/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 1196,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6729,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNHISTORICALREADCONSENT",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNHISTORICALREADCONSENT",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNHISTORICALREADCONSENT",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNHISTORICALREADCONSENT",
+    "created_at": "2019-03-11T12:18:08.407Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNHISTORICALREADCONSENT.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNHISTORICALREADCONSENT.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNHISTORICALREADCONSENT",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-20T16:25:57.858Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6729",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6729/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6729/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6729/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6729/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6729/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6729/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6725,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANG_FUNDETALLESTERMINALESTOL",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANG_FUNDETALLESTERMINALESTOL",
+    "path": "FRONTALUNIFICADO_ANG_FUNDETALLESTERMINALESTOL",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNDETALLESTERMINALESTOL",
+    "created_at": "2019-03-11T07:35:00.754Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNDETALLESTERMINALESTOL.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNDETALLESTERMINALESTOL.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNDETALLESTERMINALESTOL",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-20T11:38:01.145Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6725",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6725/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6725/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6725/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6725/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6725/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6725/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6724,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANG_FUNGESTIONASIM",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANG_FUNGESTIONASIM",
+    "path": "FRONTALUNIFICADO_ANG_FUNGESTIONASIM",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNGESTIONASIM",
+    "created_at": "2019-03-08T13:35:23.401Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNGESTIONASIM.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNGESTIONASIM.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNGESTIONASIM",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-20T13:51:01.667Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6724",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6724/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6724/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6724/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6724/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6724/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6724/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6718,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_S8BUTTON",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_S8BUTTON",
+    "path": "FRONTALUNIFICADO_ANGJS_S8BUTTON",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_S8BUTTON",
+    "created_at": "2019-03-08T08:14:29.268Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_S8BUTTON.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_S8BUTTON.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_S8BUTTON",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-21T10:16:12.763Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6718",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6718/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6718/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6718/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6718/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6718/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6718/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6717,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANG_SHOPPINGCARTRECOMMENDED",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANG_SHOPPINGCARTRECOMMENDED",
+    "path": "FRONTALUNIFICADO_ANG_SHOPPINGCARTRECOMMENDED",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_SHOPPINGCARTRECOMMENDED",
+    "created_at": "2019-03-07T16:13:41.525Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_SHOPPINGCARTRECOMMENDED.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_SHOPPINGCARTRECOMMENDED.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_SHOPPINGCARTRECOMMENDED",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-22T10:25:52.656Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6717",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6717/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6717/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6717/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6717/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6717/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6717/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 565,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6715,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONALCODE",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONALCODE",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONALCODE",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONALCODE",
+    "created_at": "2019-03-07T15:19:59.600Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONALCODE.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONALCODE.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONALCODE",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-15T09:18:21.055Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6715",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6715/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6715/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6715/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6715/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6715/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6715/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6711,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNORDERSRESUMEALTAMIRA",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNORDERSRESUMEALTAMIRA",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNORDERSRESUMEALTAMIRA",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNORDERSRESUMEALTAMIRA",
+    "created_at": "2019-03-07T08:25:26.399Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNORDERSRESUMEALTAMIRA.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNORDERSRESUMEALTAMIRA.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNORDERSRESUMEALTAMIRA",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-07T08:25:26.399Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6711",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6711/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6711/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6711/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6711/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6711/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6711/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6710,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNBUCKETSELECTION",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNBUCKETSELECTION",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNBUCKETSELECTION",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBUCKETSELECTION",
+    "created_at": "2019-03-07T08:22:45.780Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBUCKETSELECTION.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBUCKETSELECTION.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNBUCKETSELECTION",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-11T10:08:28.817Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6710",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6710/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6710/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6710/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6710/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6710/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6710/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6709,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONS",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONS",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONS",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONS",
+    "created_at": "2019-03-07T08:20:36.348Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONS.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONS.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNSHOPPINGCARTPROMOTIONS",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-19T14:32:58.617Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6709",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6709/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6709/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6709/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6709/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6709/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6709/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6707,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANGJS_FUNADITIONALLINESELECTION",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANGJS_FUNADITIONALLINESELECTION",
+    "path": "FRONTALUNIFICADO_ANGJS_FUNADITIONALLINESELECTION",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNADITIONALLINESELECTION",
+    "created_at": "2019-03-07T08:17:17.829Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNADITIONALLINESELECTION.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNADITIONALLINESELECTION.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANGJS_FUNADITIONALLINESELECTION",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-11T10:08:07.845Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6707",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6707/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6707/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6707/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6707/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6707/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6707/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  },
+  {
+    "id": 6700,
+    "description": "",
+    "name": "FRONTALUNIFICADO_ANG_FUNCONTRATAOFERTASPERSONALIZADAS",
+    "name_with_namespace": "FRONTAL_UNIFICADO / FRONTALUNIFICADO_ANG_FUNCONTRATAOFERTASPERSONALIZADAS",
+    "path": "FRONTALUNIFICADO_ANG_FUNCONTRATAOFERTASPERSONALIZADAS",
+    "path_with_namespace": "FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNCONTRATAOFERTASPERSONALIZADAS",
+    "created_at": "2019-03-06T14:39:39.162Z",
+    "default_branch": "master",
+    "tag_list": [],
+    "ssh_url_to_repo": "git@torredecontrol.si.orange.es:FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNCONTRATAOFERTASPERSONALIZADAS.git",
+    "http_url_to_repo": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNCONTRATAOFERTASPERSONALIZADAS.git",
+    "web_url": "https://torredecontrol.si.orange.es/gitlab/FRONTAL_UNIFICADO/FRONTALUNIFICADO_ANG_FUNCONTRATAOFERTASPERSONALIZADAS",
+    "avatar_url": null,
+    "star_count": 0,
+    "forks_count": 0,
+    "last_activity_at": "2019-03-12T07:42:33.590Z",
+    "_links": {
+      "self": "http://torredecontrol.si.orange.es/api/v4/projects/6700",
+      "issues": "http://torredecontrol.si.orange.es/api/v4/projects/6700/issues",
+      "merge_requests": "http://torredecontrol.si.orange.es/api/v4/projects/6700/merge_requests",
+      "repo_branches": "http://torredecontrol.si.orange.es/api/v4/projects/6700/repository/branches",
+      "labels": "http://torredecontrol.si.orange.es/api/v4/projects/6700/labels",
+      "events": "http://torredecontrol.si.orange.es/api/v4/projects/6700/events",
+      "members": "http://torredecontrol.si.orange.es/api/v4/projects/6700/members"
+    },
+    "archived": false,
+    "visibility": "private",
+    "resolve_outdated_diff_discussions": false,
+    "container_registry_enabled": true,
+    "issues_enabled": true,
+    "merge_requests_enabled": true,
+    "wiki_enabled": true,
+    "jobs_enabled": true,
+    "snippets_enabled": true,
+    "shared_runners_enabled": true,
+    "lfs_enabled": true,
+    "creator_id": 828,
+    "namespace": {
+      "id": 824,
+      "name": "FRONTAL_UNIFICADO",
+      "path": "FRONTAL_UNIFICADO",
+      "kind": "group",
+      "full_path": "FRONTAL_UNIFICADO",
+      "parent_id": null
+    },
+    "import_status": "none",
+    "open_issues_count": 0,
+    "public_jobs": true,
+    "ci_config_path": null,
+    "shared_with_groups": [
+      {
+        "group_id": 399,
+        "group_name": "COMPONENTES",
+        "group_access_level": 40
+      }
+    ],
+    "only_allow_merge_if_pipeline_succeeds": false,
+    "request_access_enabled": false,
+    "only_allow_merge_if_all_discussions_are_resolved": false,
+    "printing_merge_request_link_enabled": true,
+    "permissions": {
+      "project_access": null,
+      "group_access": {
+        "access_level": 40,
+        "notification_level": 3
+      }
+    }
+  }
+]
