@@ -2,9 +2,10 @@
   <div class="row">
     <div class="col-sm-6" *ngFor="let card of results">
       <div class="card">
+
         <div class="card-header">{{card.name}}</div>
         <div class="card-body">
-          <h5></h5>
+          <p class="card-text">{{card.description}}</p>
           <p class="card-text">Grupo perteneciente: {{card.namespace.path}}</p>
           <a class="btn btn-primary" [routerLink]="['/componentCard', card.id]">{{card.name}}</a>
         </div>

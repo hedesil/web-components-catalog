@@ -10,4 +10,10 @@
   <markdown [data]="readmeContent"></markdown>
 </div>
 
-
+<div *ngIf="isLoading">
+  Loading el otro...
+</div>
+<div *ngIf="!isLoading" class="wrapper">
+  <h1 style="color: orangered">Documentaci&oacute;n t&eacute;cnica</h1>
+  <markdown [data]="readmeContent"></markdown>
+</div>

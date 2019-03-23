@@ -1,6 +1,7 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit, Pipe, PipeTransform} from '@angular/core';
 import {Subscription} from 'rxjs';
 import {MessageService} from '../../services/message.service';
+import {GitlabSrvService} from '../../services/gitlab.service';
 
 @Component({
   selector: 'app-summary-card',
@@ -11,7 +12,10 @@ export class SummaryCardComponent implements OnInit, OnDestroy {
   messages: any[] = [];
   subscription: Subscription;
   results: any;
-  constructor(private messageService: MessageService) {
+  packageContent;
+  isFinished: boolean = false;
+
+  constructor(private messageService: MessageService, private gitLabSrv: GitlabSrvService) {
     // Suscripcion al componente main-dashboard
     this.subscription = this.messageService.getMessage().subscribe(message => {
       if (message) {
@@ -25,7 +29,7 @@ export class SummaryCardComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    console.log('emosido instanciado')
+    console.log('emosido instanciado');
   }
 
   ngOnDestroy(): void {
@@ -33,4 +37,26 @@ export class SummaryCardComponent implements OnInit, OnDestroy {
     this.subscription.unsubscribe();
   }
 
+  subscribeToMessage() {
+    // Suscripcion al componente main-dashboard
+    this.subscription = this.messageService.getMessage().subscribe(message => {
+      if (message) {
+        this.results = message.contents;
+        this.messages.push(message);
+      } else {
+        // Se limpian mensajes cuando se recibe un mensaje vacio
+        this.messages = [];
+      }
+    });
+  }
+
+  getPackageInformation(id) {
+    this.gitLabSrv.callGitLab('https://torredecontrol.si.orange.es/gitlab/api/v4/projects/' + id + '/repository/files/package.json?ref=develop')
+      .subscribe(response => {
+        if (response.body.content) {
+          this.packageContent = JSON.parse(atob(response.body.content));
+        }
+      });
+  }
 }
+
