@@ -1,0 +1,19 @@
+:host .mat-form-field-placeholder{
+
+  color:red;
+}
+
+:host .mat-focused .mat-form-field-placeholder{
+
+  color:red;
+}
+
+:host .mat-form-field-underline .mat-form-field-ripple{
+
+  background-color:red;
+}
+
+:host .mat-form-field-underline{
+
+  background-color:red;
+}

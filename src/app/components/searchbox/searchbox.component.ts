@@ -29,7 +29,8 @@ export class SearchboxComponent implements OnInit {
         )
       )
       .subscribe(response => {
-        this.sendMessage('repositories', response.body, 'app-searchbox');
+        // this.sendMessage('repositories', response.body, 'app-searchbox');
+        this.sendMessage('repositories', response, 'app-searchbox');
         this.router.navigateByUrl('summaryCard');
       });
   }

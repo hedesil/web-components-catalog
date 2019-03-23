@@ -12,6 +12,14 @@ mat-grid-tile {
   border: 1px solid #555;
 }
 
+/*Estilos del titulo categorias*/
+.principalTitle {
+  padding-left: 3.5%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3%;
+  /*border-top: 1px solid #000000;*/
+  padding-top: 3%;
+}
 
 /*Estilos generales*/
 body {
