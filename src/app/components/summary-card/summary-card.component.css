@@ -1,0 +1,34 @@
+.container-fluid {
+  padding-left: 3%;
+}
+
+.single-card {
+padding: 2%;
+max-width: 44%;
+}
+
+.card {
+  border-radius: 0;
+  border: 2px solid #000;
+}
+.card-header {
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+}
+.navigate-button {
+  border: 2px solid #000;
+  color: #000000;
+  padding: 10px 20px;
+  font-weight:bold;
+}
+
+.navigate-button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.text-button {
+
+}
+

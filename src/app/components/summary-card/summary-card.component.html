@@ -1,13 +1,18 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-6" *ngFor="let card of results">
+    <div class="col-sm-6 single-card" *ngFor="let card of results">
       <div class="card">
-
-        <div class="card-header">{{card.name}}</div>
+        <div class="card-header">{{ (card.name.length>30)? (card.name |
+          slice:0:30)+'...':(card.name) }}
+        </div>
         <div class="card-body">
           <p class="card-text">{{card.description}}</p>
           <p class="card-text">Grupo perteneciente: {{card.namespace.path}}</p>
-          <a class="btn btn-primary" [routerLink]="['/componentCard', card.id]">{{card.name}}</a>
+          <a class="navigate-button" [routerLink]="['/componentCard', card.id]">
+            <span class="text-button">
+            {{ (card.name.length>20)? (card.name | slice:0:30)+'...':(card.name) }}
+          </span>
+          </a>
         </div>
       </div>
     </div>
