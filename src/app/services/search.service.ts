@@ -19,7 +19,7 @@ export class SearchService {
 
   // Llamada http al API de GitLab
   search(queryString: string) {
-    // return this.http.get(this.baseUrl + this.queryUrl + queryString, {observe: 'response', headers: this.headers});
-   return this.http.get('./assets/repositoryList.json');
+    return this.http.get(this.baseUrl + this.queryUrl + queryString, {observe: 'response', headers: this.headers});
+   // return this.http.get('./assets/repositoryList.json'); // Datos mockeados
   }
 }

@@ -15,6 +15,7 @@ import { ComponentCardComponent } from './components/component-card/component-ca
 import { SummaryCardComponent } from './components/summary-card/summary-card.component';
 import { SearchboxComponent } from './components/searchbox/searchbox.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { TrimGitRepoNamePipe } from './pipes/trim-git-repo-name/trim-git-repo-name.pipe';
 
 @NgModule({
   imports: [
@@ -36,6 +37,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     SummaryCardComponent,
     SearchboxComponent,
     SidebarComponent,
+    TrimGitRepoNamePipe,
   ],
   providers: [],
   bootstrap: [AppComponent]

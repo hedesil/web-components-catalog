@@ -29,8 +29,8 @@ export class SearchboxComponent implements OnInit {
         )
       )
       .subscribe(response => {
-        // this.sendMessage('repositories', response.body, 'app-searchbox');
-        this.sendMessage('repositories', response, 'app-searchbox');
+        this.sendMessage('repositories', response.body, 'app-searchbox');
+        // this.sendMessage('repositories', response, 'app-searchbox'); // Descomentar para utilizar mock (el response no tiene body)
         this.router.navigateByUrl('summaryCard');
       });
   }

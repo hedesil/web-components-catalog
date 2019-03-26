@@ -1,17 +1,14 @@
 <div *ngIf="isLoading">
-  Loading...
+  <h3>Cargando información del package.json...</h3>
 </div>
 <div *ngIf="!isLoading" class="wrapper">
   <h1>{{packageContent.name}}</h1>
   <p>{{packageContent.description}}</p>
   <p>&Uacute;ltima versi&oacute;n: {{packageContent.version}}</p>
-
-  <h1 style="color: orangered">Documentaci&oacute;n t&eacute;cnica</h1>
-  <markdown [data]="readmeContent"></markdown>
 </div>
 
 <div *ngIf="isLoading">
-  Loading el otro...
+  <h3>Cargando información del README.md...</h3>
 </div>
 <div *ngIf="!isLoading" class="wrapper">
   <h1 style="color: orangered">Documentaci&oacute;n t&eacute;cnica</h1>

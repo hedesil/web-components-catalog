@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit, Pipe, PipeTransform} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from 'rxjs';
 import {MessageService} from '../../services/message.service';
 import {GitlabSrvService} from '../../services/gitlab.service';
